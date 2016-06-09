@@ -1,0 +1,29 @@
+
+<html>
+<head>
+   <script src="https://code.jquery.com/jquery-2.x-git.min.js">
+   </script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row" style="margin-top:60px;">
+            <button id="btn">Click</button>
+        <div id="counter">
+        </div>
+    </div>
+</div>
+<script>
+    var count=0;
+    $("#btn").click(function(){
+        count++;
+ $("#counter").html("counter" + count);
+    });
+</script>
+</body>
+</html>
